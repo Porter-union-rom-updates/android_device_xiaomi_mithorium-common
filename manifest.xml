@@ -22,7 +22,11 @@
     <hal format="hidl">
         <name>android.hardware.graphics.composer</name>
         <transport>hwbinder</transport>
-        <fqname>@2.1::IComposer/default</fqname>
+        <version>2.4</version>
+        <interface>
+            <name>IComposer</name>
+            <instance>default</instance>
+        </interface>
     </hal>
     <hal format="hidl">
         <name>android.hardware.media.omx</name>
