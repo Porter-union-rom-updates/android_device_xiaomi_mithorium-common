@@ -78,6 +78,9 @@ on property:vendor.subsys_state_notifier.modem.state=ONLINE
     start vendor.qcrild
     start vendor.qcrild2
 
+on property:init.svc.vendor.qcrild=stopped
+    stop vendor.radio-config-1-1-wrapper
+
 # SDHCI
 on early-fs
     write /sys/kernel/sdhci_msm/add_host 1
@@ -103,6 +106,10 @@ on init
 # Time
 on property:sys.boot_completed=1
     restart time_daemon
+
+# USB
+on property:ro.product.vendor.model=*
+    setprop vendor.usb.product_string ${ro.product.vendor.model}
 
 # Wi-Fi
 on init
