@@ -550,9 +550,6 @@ PRODUCT_SOONG_NAMESPACES += \
     hardware/lineage/interfaces/power-libperfmgr \
     $(LOCAL_PATH)
 
-# Speed profile services and wifi-service to reduce RAM and storage
-PRODUCT_SYSTEM_SERVER_COMPILER_FILTER := speed-profile
-
 # Subsystem state notifier
 ifneq ($(TARGET_HAS_NO_RADIO),true)
 MITHORIUM_PRODUCT_PACKAGES += \
