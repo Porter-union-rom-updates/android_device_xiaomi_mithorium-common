@@ -176,7 +176,7 @@
         },
         {
             "Name": "FGSchedtunePreferIdle",
-            "Path": "/dev/stune/top-app/schedtune.prefer_idle",
+            "Path": "/dev/stune/foreground/schedtune.prefer_idle",
             "Values": [
                 "1",
                 "0"
@@ -339,6 +339,13 @@
             "Name": "DDRBigClusterMaxFreq",
             "Path": "/sys/class/devfreq/soc:qcom,cpu0-cpu-ddr-latfloor/max_freq",
             "Values": [
+                "7102",
+                "6446",
+                "6080",
+                "5714",
+                "5050",
+                "4249",
+                "3219",
                 "2929",
                 "2120",
                 "1609",
@@ -378,11 +385,7 @@
             "Name": "PowerHALMainState",
             "Path": "vendor.powerhal.state",
             "Values": [
-                "DEVICE_IDLE",
                 "SUSTAINED_PERFORMANCE",
-                "INTERACTION",
-                "FIXED_PERFORMANCE",
-                "LAUNCH",
                 ""
             ],
             "Type": "Property"
@@ -582,18 +585,6 @@
             "Value": "3"
         },
         {
-            "PowerHint": "SUSTAINED_PERFORMANCE",
-            "Node": "EnergyAware",
-            "Duration": 0,
-            "Value": "1"
-        },
-		{
-            "PowerHint": "INTERACTION",
-            "Node": "PowerHALMainState",
-            "Duration": 0,
-            "Value": "INTERACTION"
-        },
-        {
             "PowerHint": "INTERACTION",
             "Node": "TASchedtuneBoost",
             "Duration": 0,
@@ -754,12 +745,6 @@
             "Node": "GPUMinFreq",
             "Duration": 0,
             "Value": "3"
-        },
-		{
-            "PowerHint": "LAUNCH",
-            "Node": "PowerHALMainState",
-            "Duration": 5000,
-            "Value": "LAUNCH"
         },
         {
             "PowerHint": "LAUNCH",
@@ -929,12 +914,6 @@
             "Duration": 0,
             "Value": "1"
         },
-		{
-            "PowerHint": "FIXED_PERFORMANCE",
-            "Node": "PowerHALMainState",
-            "Duration": 0,
-            "Value": "FIXED_PERFORMANCE"
-        },
         {
             "PowerHint": "FIXED_PERFORMANCE",
             "Node": "EnergyAware",
@@ -1102,12 +1081,6 @@
             "Node": "DDRBigClusterMaxFreq",
             "Duration": 0,
             "Value": "7102"
-        },
-		{
-            "PowerHint": "DEVICE_IDLE",
-            "Node": "PowerHALMainState",
-            "Duration": 0,
-            "Value": "DEVICE_IDLE"
         },
         {
             "PowerHint": "DEVICE_IDLE",
