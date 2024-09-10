@@ -452,7 +452,7 @@ MITHORIUM_PRODUCT_PACKAGES += \
 
 # Power
 MITHORIUM_PRODUCT_PACKAGES += \
-    android.hardware.power@1.2.vendor \
+    android.hardware.power@1.4.vendor \
     android.hardware.power-service.lineage-libperfmgr
 
 PRODUCT_COPY_FILES += \
