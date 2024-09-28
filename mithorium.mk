@@ -429,8 +429,6 @@ MITHORIUM_PRODUCT_PACKAGES += \
     libstagefright_enc_common.vendor \
     libstagefright_softomx_plugin.vendor \
     libstagefright_softomx.vendor \
-    libstagefright_soft_vpxdec \
-    libstagefright_soft_vpxenc \
     libstagefrighthw \
     libvorbisidec.vendor \
     libvpx.vendor
