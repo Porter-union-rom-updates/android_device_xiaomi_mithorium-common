@@ -166,6 +166,9 @@ vendor.powerhal.init=1
 #Enable SUSTAINED_PERFORMANCE
 #vendor.powerhal.state=SUSTAINED_PERFORMANCE
 
+#Powerhal Config
+vendor.powerhal.config=powerhint.json
+
 #HWUI Renderer
 debug.hwui.renderer=skiagl
 
