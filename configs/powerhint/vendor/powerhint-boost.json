@@ -99,7 +99,7 @@
                 "769",
                 "0"
             ],
-            "DefaultIndex": 9,
+            "DefaultIndex": 8,
             "ResetOnInit": true
         },
         {
@@ -117,7 +117,7 @@
                 "769",
                 "0"
             ],
-            "DefaultIndex": 0,
+            "DefaultIndex": 1,
             "ResetOnInit": true
         },
         {
@@ -528,6 +528,144 @@
             "Duration": 0,
             "Value": "3"
         },
+        {
+            "PowerHint": "INTERACTION",
+            "Node": "TASchedtuneBoost",
+            "Duration": 0,
+            "Value": "30"
+        },
+        {
+            "PowerHint": "INTERACTION",
+            "Node": "TASchedtunePreferIdle",
+            "Duration": 0,
+            "Value": "1"
+        },
+        {
+            "PowerHint": "INTERACTION",
+            "Node": "FGSchedtuneBoost",
+            "Duration": 0,
+            "Value": "30"
+        },
+        {
+            "PowerHint": "INTERACTION",
+            "Node": "FGSchedtunePreferIdle",
+            "Duration": 0,
+            "Value": "1"
+        },
+        {
+            "PowerHint": "INTERACTION",
+            "Node": "BGSchedtuneBoost",
+            "Duration": 0,
+            "Value": "0"
+        },
+        {
+            "PowerHint": "INTERACTION",
+            "Node": "BGSchedtunePreferIdle",
+            "Duration": 0,
+            "Value": "0"
+        },
+        {
+            "PowerHint": "INTERACTION",
+            "Node": "CPULittleClusterMinFreq",
+            "Duration": 0,
+            "Value": "768000"
+        },
+        {
+            "PowerHint": "INTERACTION",
+            "Node": "CPULittleClusterMaxFreq",
+            "Duration": 0,
+            "Value": "1459200"
+        },
+        {
+            "PowerHint": "INTERACTION",
+            "Node": "CPUBigClusterMinFreq",
+            "Duration": 0,
+            "Value": "960000"
+        },
+        {
+            "PowerHint": "INTERACTION",
+            "Node": "CPUBigClusterMaxFreq",
+            "Duration": 0,
+            "Value": "2016000"
+        },
+        {
+            "PowerHint": "INTERACTION",
+            "Node": "CPUBWMinFreq",
+            "Duration": 0,
+            "Value": "1609"
+        },
+		{
+            "PowerHint": "INTERACTION",
+            "Node": "CPUBWMaxFreq",
+            "Duration": 0,
+            "Value": "7102"
+        },
+        {
+            "PowerHint": "INTERACTION",
+            "Node": "GPUForceClkOn",
+            "Duration": 0,
+            "Value": "1"
+        },
+        {
+            "PowerHint": "INTERACTION",
+            "Node": "GPUBusMinFreq",
+            "Duration": 0,
+            "Value": "769"
+        },
+        {
+            "PowerHint": "INTERACTION",
+            "Node": "GPUBusMaxFreq",
+            "Duration": 0,
+            "Value": "7105"
+        },
+        {
+            "PowerHint": "INTERACTION",
+            "Node": "GPUForceRailOn",
+            "Duration": 0,
+            "Value": "1"
+        },
+        {
+            "PowerHint": "INTERACTION",
+            "Node": "GPUIdleTimer",
+            "Duration": 0,
+            "Value": "80"
+        },
+        {
+            "PowerHint": "INTERACTION",
+            "Node": "DDRLittleClusterMinFreq",
+            "Duration": 0,
+            "Value": "1609"
+        },
+        {
+            "PowerHint": "INTERACTION",
+            "Node": "DDRLittleClusterMaxFreq",
+            "Duration": 0,
+            "Value": "7102"
+        },
+        {
+            "PowerHint": "INTERACTION",
+            "Node": "DDRBigClusterMinFreq",
+            "Duration": 0,
+            "Value": "1609"
+        },
+        {
+            "PowerHint": "INTERACTION",
+            "Node": "DDRBigClusterMaxFreq",
+            "Duration": 0,
+            "Value": "7102"
+        },
+        {
+            "PowerHint": "INTERACTION",
+            "Node": "GPUMaxFreq",
+            "Duration": 0,
+            "Value": "1"
+        },
+        {
+            "PowerHint": "INTERACTION",
+            "Node": "GPUMinFreq",
+            "Duration": 0,
+            "Value": "4"
+        },
 		{
             "PowerHint": "INTERACTIVE",
             "Node": "TASchedtuneBoost",
@@ -550,7 +688,7 @@
             "PowerHint": "INTERACTIVE",
             "Node": "FGSchedtunePreferIdle",
             "Duration": 0,
-            "Value": "0"
+            "Value": "1"
         },
         {
             "PowerHint": "INTERACTIVE",
@@ -604,7 +742,7 @@
             "PowerHint": "INTERACTIVE",
             "Node": "GPUForceClkOn",
             "Duration": 0,
-            "Value": "0"
+            "Value": "1"
         },
         {
             "PowerHint": "INTERACTIVE",
@@ -622,7 +760,7 @@
             "PowerHint": "INTERACTIVE",
             "Node": "GPUForceRailOn",
             "Duration": 0,
-            "Value": "0"
+            "Value": "1"
         },
         {
             "PowerHint": "INTERACTIVE",
@@ -718,13 +856,13 @@
             "PowerHint": "LAUNCH",
             "Node": "CPUBigClusterMinFreq",
             "Duration": 5000,
-            "Value": "960000"
+            "Value": "1305600"
         },
         {
             "PowerHint": "LAUNCH",
             "Node": "CPULittleClusterMinFreq",
             "Duration": 5000,
-            "Value": "768000"
+            "Value": "998400"
         },
         {
             "PowerHint": "LAUNCH",
@@ -766,7 +904,7 @@
             "PowerHint": "LAUNCH",
             "Node": "GPUIdleTimer",
             "Duration": 5000,
-            "Value": "80"
+            "Value": "10000"
         },
         {
             "PowerHint": "LAUNCH",
@@ -802,6 +940,144 @@
             "PowerHint": "LAUNCH",
             "Node": "GPUMinFreq",
             "Duration": 5000,
+            "Value": "1"
+        },
+		{
+            "PowerHint": "DISPLAY_UPDATE_IMMINENT",
+            "Node": "CPULittleClusterMaxFreq",
+            "Duration": 500,
+            "Value": "1459200"
+        },
+        {
+            "PowerHint": "DISPLAY_UPDATE_IMMINENT",
+            "Node": "TASchedtuneBoost",
+            "Duration": 500,
+            "Value": "50"
+        },
+        {
+            "PowerHint": "DISPLAY_UPDATE_IMMINENT",
+            "Node": "TASchedtunePreferIdle",
+            "Duration": 500,
+            "Value": "1"
+        },
+        {
+            "PowerHint": "DISPLAY_UPDATE_IMMINENT",
+            "Node": "FGSchedtuneBoost",
+            "Duration": 500,
+            "Value": "30"
+        },
+        {
+            "PowerHint": "DISPLAY_UPDATE_IMMINENT",
+            "Node": "FGSchedtunePreferIdle",
+            "Duration": 500,
+            "Value": "1"
+        },
+        {
+            "PowerHint": "DISPLAY_UPDATE_IMMINENT",
+            "Node": "BGSchedtuneBoost",
+            "Duration": 500,
+            "Value": "0"
+        },
+        {
+            "PowerHint": "DISPLAY_UPDATE_IMMINENT",
+            "Node": "BGSchedtunePreferIdle",
+            "Duration": 500,
+            "Value": "0"
+        },
+        {
+            "PowerHint": "DISPLAY_UPDATE_IMMINENT",
+            "Node": "CPUBigClusterMaxFreq",
+            "Duration": 500,
+            "Value": "2016000"
+        },
+        {
+            "PowerHint": "DISPLAY_UPDATE_IMMINENT",
+            "Node": "CPUBigClusterMinFreq",
+            "Duration": 500,
+            "Value": "1305600"
+        },
+        {
+            "PowerHint": "DISPLAY_UPDATE_IMMINENT",
+            "Node": "CPULittleClusterMinFreq",
+            "Duration": 500,
+            "Value": "998400"
+        },
+        {
+            "PowerHint": "DISPLAY_UPDATE_IMMINENT",
+            "Node": "CPUBWMinFreq",
+            "Duration": 500,
+            "Value": "5714"
+        },
+		{
+            "PowerHint": "DISPLAY_UPDATE_IMMINENT",
+            "Node": "CPUBWMaxFreq",
+            "Duration": 500,
+            "Value": "7102"
+        },
+        {
+            "PowerHint": "DISPLAY_UPDATE_IMMINENT",
+            "Node": "GPUForceClkOn",
+            "Duration": 500,
+            "Value": "1"
+        },
+        {
+            "PowerHint": "DISPLAY_UPDATE_IMMINENT",
+            "Node": "GPUBusMinFreq",
+            "Duration": 500,
+            "Value": "7105"
+        },
+        {
+            "PowerHint": "DISPLAY_UPDATE_IMMINENT",
+            "Node": "GPUBusMaxFreq",
+            "Duration": 500,
+            "Value": "7105"
+        },
+        {
+            "PowerHint": "DISPLAY_UPDATE_IMMINENT",
+            "Node": "GPUForceRailOn",
+            "Duration": 500,
+            "Value": "1"
+        },
+        {
+            "PowerHint": "DISPLAY_UPDATE_IMMINENT",
+            "Node": "GPUIdleTimer",
+            "Duration": 500,
+            "Value": "10000"
+        },
+        {
+            "PowerHint": "DISPLAY_UPDATE_IMMINENT",
+            "Node": "DDRLittleClusterMinFreq",
+            "Duration": 500,
+            "Value": "2929"
+        },
+        {
+            "PowerHint": "DISPLAY_UPDATE_IMMINENT",
+            "Node": "DDRLittleClusterMaxFreq",
+            "Duration": 500,
+            "Value": "7102"
+        },
+        {
+            "PowerHint": "DISPLAY_UPDATE_IMMINENT",
+            "Node": "DDRBigClusterMinFreq",
+            "Duration": 500,
+            "Value": "2929"
+        },
+        {
+            "PowerHint": "DISPLAY_UPDATE_IMMINENT",
+            "Node": "DDRBigClusterMaxFreq",
+            "Duration": 500,
+            "Value": "7102"
+        },
+        {
+            "PowerHint": "DISPLAY_UPDATE_IMMINENT",
+            "Node": "GPUMaxFreq",
+            "Duration": 500,
+            "Value": "0"
+        },
+        {
+            "PowerHint": "DISPLAY_UPDATE_IMMINENT",
+            "Node": "GPUMinFreq",
+            "Duration": 500,
             "Value": "1"
         },
 		{
@@ -916,7 +1192,7 @@
             "PowerHint": "FIXED_PERFORMANCE",
             "Node": "GPUIdleTimer",
             "Duration": 0,
-            "Value": "80"
+            "Value": "10000"
         },
         {
             "PowerHint": "FIXED_PERFORMANCE",

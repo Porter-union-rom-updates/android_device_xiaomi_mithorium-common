@@ -167,6 +167,8 @@ vendor.powerhal.init=1
 #vendor.powerhal.state=SUSTAINED_PERFORMANCE
 
 #Powerhal Config
+#default: powerhint.json
+#boost: powerhint-boost.json
 vendor.powerhal.config=powerhint.json
 
 #HWUI Renderer
