@@ -287,8 +287,7 @@ MITHORIUM_PRODUCT_PACKAGES += \
 # DRM
 MITHORIUM_PRODUCT_PACKAGES += \
     android.hardware.drm-service.clearkey \
-    android.hardware.drm@1.4.vendor \
-	libcrypto_shim
+    android.hardware.drm@1.4.vendor
 
 # Dumpstate
 MITHORIUM_PRODUCT_PACKAGES += \
