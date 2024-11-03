@@ -590,7 +590,7 @@ endif
 # USB
 MITHORIUM_PRODUCT_PACKAGES += \
     usb_compositions.conf \
-    android.hardware.usb-service.qti \
+    android.hardware.usb@1.3-service.basic \
     android.hardware.usb.gadget-service.qti
 
 # Vibrator
